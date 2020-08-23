@@ -1,0 +1,36 @@
+h1 {
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-family: Tahoma;
+}
+
+body {
+    background: black;
+}
+
+tr {
+    background-color: blue;
+    text-align: center;
+}
+
+p {
+    background-color: darkred;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+tr[value^="8"] {
+    background-color: darkmagenta;
+}
+
+tr#ilk_satır {
+    font-weight: bold;
+    background-color: yellow;
+}
+
+li {
+    color: white;
+    background-color: teal;
+}
